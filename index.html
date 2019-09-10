@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Usuários</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+</head>
+<body>
+    <div class="backgroud">
+        <header>
+            <div class="nav-menu>
+                <ul class="lista-menus">
+                    <li class="lista-menu usuarios"> 
+                    <a href="#"> Usuários </a> 
+                    </li>
+                    <li class="lista-menu my-simulations">
+                    <a href="#"> My simulations </a>
+                    </li>
+                    <li class="lista-menu my-projects">
+                    <a href="#"> My projects </a>
+                    </li>
+                    <li class="lista-menu my-invoices">
+                    <a href="#"> My invoices </a>
+                    </li>    
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                    <a href="#">Hattle Simmons</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <main>
+        <form>
+            <h1>Meus Usuários</h1>
+            <div>
+                <ul>
+                    <li>Ver todos</li>
+                    <li>Prospects</li>
+                    <li>Ongoing</li>
+                    <li>Achived</li>
+                </ul>
+            </div>
+            <div>
+                <button>Outra ação</button>
+                <button>Novo usuário</button>
+            </div>
+            <div class="filtros">
+                <label> Período 
+                    <select>
+                        <option value="periodo1" selected>Desde o início</option>
+                        <option value="periodo1">Outro</option>
+                        <option value="periodo1">Outro</option>
+                    </select>
+                </label>
+                <label> Status 
+                        <select>
+                            <option value="todos" selected>Todos</option>
+                            <option value="nem todos">Nem todos</option>
+                            <option value="alguns">Alguns</option>
+                        </select>
+                </label>
+            </div>
+            <div class="filtro-pesquisa">
+                <button type="submit">OK</button>
+                <input type="search" id="busca" name="q">
+                
+            </div>
+            <table border="1">
+                    <thead>
+                            <tr>
+                              <th>
+                                  <input type="checkbox">
+                              </th>
+                              <th>
+                                  <input type="checkbox">
+                              </th>
+                              <th>Nome do Usuário</th>
+                              <th>Status</th>
+                              <th>Type</th>
+                              <th>Project Value</th>
+                              <th>Added</th>
+                              <th>Last update</th>
+                            </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                              <td>
+                                <input type="checkbox">
+                              </td>
+                              <td>
+                                <input type="checkbox">
+                              </td>  
+                              <td>Earl Carlson</td>
+                              <td>Cliente</td>
+                              <td>Real estate</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <input type="checkbox">
+                              </td>
+                              <td>
+                                <input type="checkbox">
+                              </td>
+                              <td>February</td>
+                              <td>$80</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                              <td>$100</td>
+                            </tr>
+                    </tbody>
+            </table>
+        </form>
+    </main>
+    <footer>
+</body>
+</html>
