@@ -1,0 +1,30 @@
+header {
+    background-color: #66CDAA;
+    border-radius: 1em 1em 0 0;
+    background-size: 100%;
+}
+
+.nav-menu-principal {
+    display: flex;
+    
+}
+
+.menu-principal {
+    display: flex;
+    
+}
+
+.menu-principal {
+    margin-bottom: 10%;
+}
+
+.lista-menu {
+    padding: 1em;
+    color: #FFF;
+    
+}
+
+.quinto-menu {
+    padding: 1em;
+    
+}
